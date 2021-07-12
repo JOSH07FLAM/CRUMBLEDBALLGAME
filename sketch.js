@@ -20,7 +20,7 @@ function setup() {
 ground1=new ground (800,670,1600,20)
 left=new ground(500,600,20,120)
 right= new ground(1000,600,20,120)
-	Engine.run(engine);
+	Engine.update(engine);
   
 }
 
